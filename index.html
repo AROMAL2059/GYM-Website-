@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroaml Project</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/blur.jpg');
+        background-position-y: -1370px;
+    }
+
+    .left {
+        
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 0px;
+    }
+
+    .left img {
+        width: 93px;
+        border-color: grey;
+    }
+
+    .left div {
+
+        text-align: center;
+        font-size: 22px;
+
+    }
+
+    .right {
+       
+        position: absolute;
+        right: 34px;
+        top: 0px;
+        display: inline-block;
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+        margin: 1px auto;
+      
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: rgb(111, 109, 238);
+        text-decoration: none;
+        padding: 34px 24px;
+    }
+
+    .navbar li a:hover {
+        color: grey;
+    }
+
+    .btn {
+        margin: 12px 3px;;
+        background-color: rgba(68, 94, 211, 0.747);
+
+        padding: 3px 6px;
+        border-color: grey;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(111, 109, 238, 0.747);
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .container {
+        border: 5px solid honeydew;
+        width: 55%;
+        margin: 38px 36px;
+        padding: 64px 12px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        font-size: 15px;
+        display: block;
+        margin: 7px 119px;
+        width: 464px;
+        ;
+    }
+
+    .container button {
+        margin: 6px 195px;
+        width: 289px;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Centre</a></li>
+                <li><a href="#">COntact</a></li>
+            </ul>
+        </div>
+        <div class="left">
+            <img src="image/barbel-ge3b48ef98_1280.png" alt="">
+            <div>AAro</div>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM IN BOKARO</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
